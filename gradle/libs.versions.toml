@@ -8,6 +8,8 @@ versionCode = "10000"
 ## Android gradle plugin
 androidGradlePlugin = "8.3.2"
 
+androidDesugarJdkLibs = "2.0.4"
+
 ## AndroidX
 androidxCore = "1.13.1"
 androidxAppCompat = "1.6.1"
@@ -53,6 +55,7 @@ lifecycleRuntimeKtx = "2.8.2"
 
 [libraries]
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
+android-desugarJdkLibs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "androidDesugarJdkLibs" }
 kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }

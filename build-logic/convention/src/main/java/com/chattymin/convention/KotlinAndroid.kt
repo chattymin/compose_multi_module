@@ -44,9 +44,9 @@ internal fun Project.configureKotlinAndroid() {
 
     val libs = extensions.libs
 
-//    dependencies {
-//        add("coreLibraryDesugaring", libs.findLibrary("android.desugarJdkLibs").get())
-//    }
+    dependencies {
+        add("coreLibraryDesugaring", libs.findLibrary("android.desugarJdkLibs").get())
+    }
 }
 
 internal fun Project.configureKotlin() {
