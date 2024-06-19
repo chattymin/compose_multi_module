@@ -1,9 +1,11 @@
+import com.chattymin.convention.setNamespace
+
 plugins {
     id("droidknights.android.application")
 }
 
 android {
-    namespace = "com.chattymin.composemultimodule"
+    setNamespace("app")
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {

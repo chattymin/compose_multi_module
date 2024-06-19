@@ -1,9 +1,11 @@
+import com.chattymin.convention.setNamespace
+
 plugins {
     id("droidknights.android.feature")
 }
 
 android {
-    namespace = "com.chattymin.home"
+    setNamespace("feature.home")
 }
 
 dependencies {
