@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    setNamespace("app")
+    namespace = "com.chattymin.composemultimodule"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
