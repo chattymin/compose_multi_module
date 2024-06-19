@@ -5,7 +5,6 @@ import com.chattymin.convention.configureKotlinAndroid
 
 plugins {
     id("com.android.library")
-    id("droidknights.verify.detekt")
 }
 
 configureKotlinAndroid()
