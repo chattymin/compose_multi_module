@@ -1,11 +1,12 @@
 import com.chattymin.convention.setNamespace
 
 plugins {
-    id("droidknights.android.application")
+    alias(libs.plugins.chattymin.application)
 }
 
 android {
-    namespace = "com.chattymin.composemultimodule"
+    setNamespace("composemultimodule")
+
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
@@ -29,5 +30,5 @@ android {
 }
 
 dependencies {
-    implementation(projects.feature.home)
+    implementation(projects.feature.main)
 }

@@ -19,4 +19,4 @@ dependencyResolutionManagement {
 rootProject.name = "composemultimodule"
 include(":app")
 include(":feature")
-include(":feature:home")
+include(":feature:main")

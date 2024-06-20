@@ -13,12 +13,12 @@ dependencies {
 gradlePlugin {
     plugins {
         register("androidHilt") {
-            id = "droidknights.android.hilt"
-            implementationClass = "com.droidknights.app.HiltAndroidPlugin"
+            id = "chattymin.android.hilt"
+            implementationClass = "com.chattymin.convention.HiltAndroidPlugin"
         }
         register("kotlinHilt") {
-            id = "droidknights.kotlin.hilt"
-            implementationClass = "com.droidknights.app.HiltKotlinPlugin"
+            id = "chattymin.kotlin.hilt"
+            implementationClass = "com.chattymin.convention.HiltKotlinPlugin"
         }
     }
 }

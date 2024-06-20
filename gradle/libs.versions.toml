@@ -121,3 +121,9 @@ hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 verify-detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 android-test = { id = "com.android.test", version.ref = "androidGradlePlugin" }
+
+chattymin-application = { id = "chattymin.android.application", version = "unspecified" }
+chattymin-compose = { id = "chattymin.android.compose", version = "unspecified" }
+chattymin-feature = { id = "chattymin.android.feature", version = "unspecified" }
+chattymin-library = { id = "chattymin.android.library", version = "unspecified" }
+chattymin-kotlin-library = { id = "chattymin.kotlin.library", version = "unspecified" }
