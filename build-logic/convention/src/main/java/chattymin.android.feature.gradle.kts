@@ -20,14 +20,7 @@ android {
 configureHiltAndroid()
 
 dependencies {
-//    implementation(project(":core:model"))
-//    implementation(project(":core:data"))
-//    implementation(project(":core:designsystem"))
-//    implementation(project(":core:domain"))
-//    implementation(project(":core:navigation"))
-//    implementation(project(":core:ui"))
-//
-//    testImplementation(project(":core:testing"))
+    // 공통적으로 필요한 core 모듈 여기서 추가해두기!!
 
     val libs = project.extensions.libs
     implementation(libs.findLibrary("hilt.navigation.compose").get())

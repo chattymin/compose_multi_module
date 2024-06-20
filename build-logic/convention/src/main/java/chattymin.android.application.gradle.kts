@@ -1,4 +1,5 @@
 import com.chattymin.convention.configureHiltAndroid
+import com.chattymin.convention.configureKotestAndroid
 import com.chattymin.convention.configureKotlinAndroid
 
 plugins {
@@ -7,4 +8,4 @@ plugins {
 
 configureKotlinAndroid()
 configureHiltAndroid()
-// configureKotestAndroid()
+configureKotestAndroid()

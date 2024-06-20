@@ -1,3 +1,4 @@
+import com.chattymin.convention.configureKotest
 import com.chattymin.convention.configureKotlin
 
 plugins {
@@ -5,4 +6,4 @@ plugins {
 }
 
 configureKotlin()
-// configureKotest()
+configureKotest()

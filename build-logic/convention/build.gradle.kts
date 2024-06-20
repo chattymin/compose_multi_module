@@ -6,7 +6,6 @@ plugins {
 dependencies {
     implementation(libs.android.gradlePlugin)
     implementation(libs.kotlin.gradlePlugin)
-    implementation(libs.verify.detektPlugin)
     compileOnly(libs.compose.compiler.gradle.plugin)
 }
 

@@ -3,7 +3,7 @@ package com.chattymin.convention
 import org.gradle.api.Project
 
 internal fun Project.configureKotestAndroid() {
-    // configureKotest()
+    configureKotest()
     configureJUnitAndroid()
 }
 
