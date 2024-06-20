@@ -60,6 +60,9 @@ $RECYCLE.BIN/
 ### AndroidStudio ###
 # Covers files to be ignored for android development using Android Studio.
 
+# kotlin 2.0
+.kotlin/
+
 # Built application files
 *.apk
 *.ap_
